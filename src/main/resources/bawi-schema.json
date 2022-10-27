@@ -1,0 +1,39 @@
+{
+  "name": "bawi",
+  "type": "record",
+  "fields": [
+    {
+      "name": "idint",
+      "type": "int"
+    },
+    {
+      "name": "idintnullable",
+      "type": [
+        "null",
+        "int"
+      ]
+    },
+    {
+      "name": "idstring",
+      "type": "string"
+    },
+    {
+      "name": "idstringnullable",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "namestring",
+      "type": "string"
+    },
+    {
+      "name": "namestringnullable",
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  ]
+}
